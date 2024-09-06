@@ -4,8 +4,9 @@
 }
 
 h1 {
-color: white;
-text-align: center;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 .topbanner{
   background-color:black;
@@ -18,4 +19,5 @@ text-align: center;
 }
 .headderspan{
   color: white;
+  padding-bottom: 1rem;
 }
