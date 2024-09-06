@@ -1,0 +1,21 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+.topbanner{
+  background-color:black;
+  width: 100%;
+  padding:0px;
+}
+.spanholder{
+  display: flex;
+  justify-content: space-between;
+}
+.headderspan{
+  color: white;
+}
