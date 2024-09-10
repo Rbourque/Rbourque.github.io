@@ -4,12 +4,13 @@
   <head>
   <title>Ryan's Page</title> 
   <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="img/icon/favicon.png">
     <script>
         const bgmap = new Map();
 
         bgmap.set(1,'url(img/pexels-potsclam-1828305.jpg)');
-        bgmap.set(2,'url(img/)');
+        bgmap.set(2,'url(img/code.png)');
         bgmap.set(3,'url(img/dmbp.jpg)');
         bgmap.set(4,'url(img/)');
         bgmap.set(5,'url(img/alifatogreen.jpg)');
@@ -45,7 +46,7 @@
       <h1 class="pagetitle">This page is where I will showcase my projects. For now it's blank, but thats ok, we all have to start someware!</h1>
       <div class="itemcontainer">
 
-    <div class="menuitem">
+    <div class="menuitem" onmouseover="changeBackgroundImage(2)" onmouseout="delayedChangeBackgroundImage(1)">
       <p>For now I will Just talk a litle about me. most of my programing life I have made small desktop apps in C++. Whenever I needed something but couldent find it online I would make it. Today I am switching to Rust. Im looking for a project with more complexity then my small app used to give me as I find its the dificulty and eginering that engages me.</p>
     </div>
   
